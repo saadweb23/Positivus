@@ -1,0 +1,834 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+
+  /* box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.3); */
+}
+
+.logo {
+  height: 2.25rem;  
+  width: auto;
+}
+
+
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 2px solid black;
+}
+
+.header-btn .quote-btn {
+  padding: 15px 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.header-btn .quote-btn:hover {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+
+/* hero section */
+
+.hero-container {
+  margin: 0 auto;
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-description {
+  width: 40vw;
+}
+
+.hero-description .hero-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-description .hero-para {
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.hero-description .hero-btn {
+  color: white;
+  background-color: black;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  /* outline: none; */
+}
+
+.hero-description .hero-btn:hover {
+  color: black;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.hero-image img {
+  width: 35vw;
+  height: 60vh;
+}
+
+/* partner images */
+
+.partner-images {
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.partner-images img {
+  width: 100px;
+  height: 48px;
+}
+
+/* service Container */
+
+.service-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.service-description {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.service-description .service-title span {
+  background-color: #b9ff66;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  /* border: 2px solid red; */
+}
+
+.service-card1 {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+  width: 39vw;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+}
+
+.service-card1 .card-title-btn .card-para {
+  background-color: #b9ff66;
+  font-size: 20px;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.service-card1 .card-title-btn .card-anchor {
+  text-decoration: none;
+  color: black;
+}
+
+.card-title-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.service-card2 {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+  width: 39vw;
+  border-radius: 20px;
+  background-color: #b9ff66;
+}
+
+.service-card2 .card-title-btn .card-para1 {
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.service-card2 .card-title-btn .card-anchor1 {
+  text-decoration: none;
+  color: black;
+}
+
+/* working section */
+
+.working-container {
+  /* border: 2px solid red; */
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.working-heading {
+  display: flex;
+  gap: 40px;
+  vertical-align: center;
+}
+
+.working-title span {
+  background-color: #b9ff66;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+/* testimonials */
+
+.testimonials-container {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.testimonial-1 {
+  padding: 30px;
+  background-color: #b9ff66;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom: 5px solid black;
+  margin-bottom: 20px;
+}
+
+.testimonial-1-sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.testimonial-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.testimonial-title .myspan {
+  font-size: 50px;
+}
+
+.testimonial-para {
+  margin-top: 20px;
+  line-height: 25px;
+}
+/* testtimonial 2 */
+
+.testimonial-2 {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-bottom: 5px solid black;
+  margin-bottom: 20px;
+}
+
+.testimonial-2 .testimonial-para2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.testimonial-2 .testimonial-para2 .myspan2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* testimonial 3 */
+
+.testimonial-3 {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-bottom: 5px solid black;
+  margin-bottom: 20px;
+}
+
+.testimonial-3 .testimonial-para3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.testimonial-3 .testimonial-para3 .myspan3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* testimonial 4 */
+
+.testimonial-4 {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-bottom: 5px solid black;
+  margin-bottom: 20px;
+}
+
+.testimonial-4 .testimonial-para4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.testimonial-4 .testimonial-para4 .myspan4 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* testimonial 5 */
+
+.testimonial-5 {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-bottom: 5px solid black;
+  margin-bottom: 20px;
+}
+
+.testimonial-5 .testimonial-para5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.testimonial-5 .testimonial-para5 .myspan5 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* testimonial 6 */
+
+.testimonial-6 {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-bottom: 5px solid black;
+  margin-bottom: 20px;
+}
+
+.testimonial-6 .testimonial-para6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.testimonial-6 .testimonial-para6 .myspan6 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* contact section */
+
+.contact-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.contact-description {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.contact-title .contact-span {
+  background-color: #b9ff66;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  border-radius: 40px;
+  padding: 50px;
+  margin-bottom: 150px;
+}
+
+/* .contact-image{
+    
+    
+    margin-right: -320px;
+} */
+
+.contact-form {
+  /* border: 2px solid red; */
+  width: 40vw;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.radio-item input[type="radio"] {
+  accent-color: #b9ff66;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+/* Text Inputs aur Textarea ki styling */
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group textarea {
+  background-color: #ffffff;
+  border: 1px solid #000000; /* Black borders jese design mein hain */
+  border-radius: 10px; /* Gol kinaray (rounded corners) */
+  padding: 18px; /* Andar ka space */
+  font-size: 16px;
+  color: #000;
+  outline: none; /* Default glow khatam karne ke liye */
+  width: 100%;
+  box-sizing: border-box; /* Padding ki wajah se width kharab nahi hogi */
+}
+
+/* Placeholder ka rang light grey karne ke liye */
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+  color: #a0a0a0;
+}
+
+/* Textarea ko user zyada khinch na sakay */
+.input-group textarea {
+  resize: vertical;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+  width: 100%;
+  background-color: #191a23; /* Dark blue/black rang */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 18px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+/* Button Hover Effect */
+.submit-btn:hover {
+  background-color: #000000;
+}
+
+.contact-image img {
+  width: 40vw;
+  align-self: center;
+}
+
+/* footer */
+
+footer {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #191a23;
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.footer-contact-info {
+  padding-top: 30px;
+  width: 66vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-contact-info .contact-info-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.contact-info-email-form {
+  width: 35vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: #292a32;
+  border-radius: 10px;
+}
+
+.contact-info-email-form #myemail {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px 20px;
+  color: white;
+  width: 15vw;
+}
+
+.subscribe-btn {
+  background-color: #b9ff66;
+  color: black;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.horizontal-line {
+  width: 66vw;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  width: 66vw;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.copyright a {
+  text-decoration: underline;
+  color: white;
+}
+
+/* media quries for Responsive Design */
+@media screen and (max-width: 768px) {
+  
+  .hero-container,
+  .service-container,
+  .working-container,
+  .testimonials-container,
+  .contact-container {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  /* --- 2. Header & Navigation --- */
+  header {
+    padding: 20px 5vw;
+    justify-content: space-between;
+  }
+
+  .navbar, 
+  .header-btn {
+    display: none; 
+  }
+
+  /* Hamburger Icon Styling */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .hamburger .bar {
+    width: 24px;
+    height: 3px;
+    background-color: #191a23;
+    border-radius: 2px;
+  }
+
+  /* --- 3. Hero Section --- */
+  .hero-container {
+    height: auto;
+    flex-direction: column; 
+    text-align: left; 
+    gap: 25px;
+  }
+
+  .hero-description {
+    width: 100%;
+  }
+
+  .hero-description .hero-title {
+    font-size: 36px; /* Mobile par font size chota */
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .hero-description .hero-para {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+
+  .hero-description .hero-btn {
+    width: 100%; 
+    display: block;
+    text-align: center;
+    padding: 18px;
+  }
+
+  .hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  /* --- 4. Partner Logos --- */
+  .partner-images {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px 5vw;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .partner-images img {
+    width: 85px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* --- 5. Sections Headings (Services, Working Process, Contact) --- */
+  .service-description,
+  .working-heading,
+  .contact-description {
+    height: auto;
+    flex-direction: column;
+    align-items: center; /* Heading aur paragraph center aligned hain */
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .service-description .service-title span,
+  .working-title span,
+  .contact-title .contact-span {
+    font-size: 26px;
+    display: inline-block;
+  }
+
+  /* --- 6. Service Cards --- */
+  .service-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .service-card1, 
+  .service-card2 {
+    width: 100%;
+    padding: 30px;
+    flex-direction: row; /* Content aur icon barabar rhen gy */
+    justify-content: space-between;
+    align-items: flex-end; /* Icon niche corner mn set hoga */
+    border-radius: 30px;
+  }
+
+  .card-title-btn {
+    align-items: flex-start;
+  }
+
+  /* --- 7. Working Process (Accordion Style List) --- */
+  /* Screenshot k mutabiq ye items full width aur list form mn aik k niche aik hain */
+  .testimonial-1,
+  .testimonial-2,
+  .testimonial-3,
+  .testimonial-4,
+  .testimonial-5,
+  .testimonial-6 {
+    width: 100%;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+  }
+
+  .testimonial-1-sub-container,
+  .testimonial-2 .testimonial-para2,
+  .testimonial-3 .testimonial-para3,
+  .testimonial-4 .testimonial-para4,
+  .testimonial-5 .testimonial-para5,
+  .testimonial-6 .testimonial-para6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 18px; 
+  }
+
+  /* Agar andar paragraph text show ho rha ho */
+  .testimonial-para {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 15px;
+  }
+
+  /* --- 8. Contact Form Section --- */
+  .contact-form-container {
+    padding: 25px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    background-color: #f3f3f3;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 0;
+  }
+
+  .radio-group {
+    justify-content: flex-start;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+
+  .contact-image {
+    display: none; 
+  }
+
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group textarea {
+    padding: 14px; 
+  }
+
+  .submit-btn {
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  /* --- 9. Footer Section --- */
+  footer {
+    width: 100vw;
+    border-radius: 0; 
+    padding: 40px 5vw;
+    text-align: center;
+  }
+
+  /* Footer logo aur link structure block kr dya */
+  .footer-contact-info {
+    width: 100%;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-contact-info .contact-info-items {
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Email Box and Button Wrapper */
+  .contact-info-email-form {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .contact-info-email-form #myemail {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .subscribe-btn {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .horizontal-line {
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  .copyright {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+}
