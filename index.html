@@ -10,8 +10,16 @@
       href="./images/favicon/icons8-favicon-48.png"
       type="image/x-icon"
     />
-    <!-- link Css -->
+    <!-- link CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- link Responsive CSS -->
+
+    <link rel="stylesheet" href="./responsive.css" />
+
+    <!-- Link Media Quries File For Responsiveness -->
+
+    <link rel="stylesheet" href="./Responsiveness.css" />
 
     <!-- font Awsome CDN Link -->
     <link
@@ -23,6 +31,7 @@
     />
   </head>
   <body>
+    <div class="margin"></div>
     <!-- Header -->
 
     <header>
@@ -38,11 +47,16 @@
           <li><a href="">Pricing</a></li>
           <li><a href="">Blog</a></li>
         </ul>
-      </nav>
 
-      <div class="header-btn">
+        <!-- header btn -->
+
+         <div class="header-btn">
         <button class="quote-btn">Request a quote</button>
       </div>
+
+      </nav>
+
+     
       
       
 
@@ -100,7 +114,7 @@
               <span style="background-color: #b9ff66"> Optimization </span>
             </p>
             <a class="card-anchor" href=""
-              ><i class="fa-solid fa-arrow-up-right-from-square"></i>Learn
+              ><img src="./images/icons/icons8-circled-up-right-50.png" alt="">Learn
               More</a
             >
           </div>
@@ -121,7 +135,7 @@
               advertsing
             </p>
             <a class="card-anchor1" href=""
-              ><i class="fa-solid fa-arrow-up-right-from-square"></i>Learn
+              ><img src="./images/icons/icons8-circled-up-right-50.png" alt="">Learn
               More</a
             >
           </div>
@@ -244,12 +258,12 @@
 
     <footer>
 
-      <header>
-      <div class="logo">
+      <div class="footer-contain">
+      <div class="logo-footer">
         <img style="color: white;" src="./images/Logo white.png" alt="img" loading="lazy" />
       </div>
 
-      <nav class="navbar">
+      <nav class="navbar-footer">
         <ul>
           <li><a style="color: white;" href="">About us</a></li>
           <li><a style="color: white;" href="">Services</a></li>
@@ -260,16 +274,17 @@
       </nav>
 
       <div class="social-links">
-        <i class="fa-brands fa-2x fa-linkedin"></i>
-        <i class="fa-brands fa-2x fa-facebook"></i>
-        <i class="fa-brands fa-2x fa-square-twitter"></i>
+        <img src="./images/icons/icons8-linkedin-circled-50.png" alt="">
+        <img src="./images/icons/icons8-facebook-50.png" alt="">
+        <img src="./images/icons/icons8-twitter-circled-50.png" alt="">
       </div>
-    </header>
+
+    </div>
 
     <!-- contact info in footer -->
      <div class="footer-contact-info">
       <div class="contact-info-items">
-        <b style="background-color: #b9ff66; padding: 5px; border-radius: 5px; color: black;">Contact Us:</b>
+        <span class="contact-info-item-span" >Contact Us:</span>
         <p>Email: info@positivus.com</p>
         <p>Phone: 555-567-8901 </p>
         <address>Address: 1234 Main St <br>

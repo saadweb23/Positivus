@@ -10,14 +10,17 @@
 body {
   font-family: "Space Grotesk", sans-serif;
 }
+.margin{
+  margin-bottom: 40px;
+}
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 410px;
   align-items: center;
-  padding: 10px;
-
-  /* box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.3); */
+  
+  
 }
 
 .logo {
@@ -25,6 +28,11 @@ header {
   width: auto;
 }
 
+.navbar{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
 
 
 .navbar ul {
@@ -43,7 +51,7 @@ header {
 }
 
 .header-btn .quote-btn {
-  padding: 15px 30px;
+  padding: 0.9375rem 1.875rem;
   background-color: transparent;
   border: 1px solid black;
   border-radius: 10px;
@@ -99,8 +107,8 @@ header {
 }
 
 .hero-image img {
-  width: 35vw;
-  height: 60vh;
+  width: 90%;
+  height: auto;
 }
 
 /* partner images */
@@ -109,11 +117,13 @@ header {
   height: 20vh;
   display: flex;
   justify-content: space-evenly;
+  
 }
 
 .partner-images img {
   width: 100px;
   height: 48px;
+  
 }
 
 /* service Container */
@@ -139,18 +149,22 @@ header {
 
 .service-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 50px;
-  /* border: 2px solid red; */
+
 }
+/* icon styling */
+
 
 .service-card1 {
   display: flex;
   justify-content: space-around;
-  border: 2px solid black;
+  align-items: center;
+  border: 1px solid black;
   border-bottom: 5px solid black;
-  width: 39vw;
-  border-radius: 20px;
+  width: 35vw;
+  height: 40vh;
+  border-radius: 30px;
   background-color: #f3f3f3;
 }
 
@@ -169,16 +183,23 @@ header {
 .card-title-btn {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  gap: 140px;
+}
+
+.card-img img{
+  width: 100%;
+  height: auto;
 }
 
 .service-card2 {
   display: flex;
   justify-content: space-around;
-  border: 2px solid black;
+  align-items: center;
+  border: 1px solid black;
   border-bottom: 5px solid black;
-  width: 39vw;
-  border-radius: 20px;
+  width: 35vw;
+  height: 40vh;
+  border-radius: 30px;
   background-color: #b9ff66;
 }
 
@@ -223,10 +244,10 @@ header {
   margin-bottom: 100px;
 }
 .testimonial-1 {
-  padding: 30px;
+  padding: 70px 40px;
   background-color: #b9ff66;
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 40px;
   border-bottom: 5px solid black;
   margin-bottom: 20px;
 }
@@ -235,7 +256,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .testimonial-title {
@@ -254,12 +275,12 @@ header {
 /* testtimonial 2 */
 
 .testimonial-2 {
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
   background-color: #f3f3f3;
   border-bottom: 5px solid black;
   margin-bottom: 20px;
@@ -278,12 +299,12 @@ header {
 /* testimonial 3 */
 
 .testimonial-3 {
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
   background-color: #f3f3f3;
   border-bottom: 5px solid black;
   margin-bottom: 20px;
@@ -302,12 +323,12 @@ header {
 /* testimonial 4 */
 
 .testimonial-4 {
-  border: 2px solid black;
-  border-radius: 20px;
+  border:1px solid black;
+  border-radius: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
   background-color: #f3f3f3;
   border-bottom: 5px solid black;
   margin-bottom: 20px;
@@ -326,12 +347,12 @@ header {
 /* testimonial 5 */
 
 .testimonial-5 {
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
   background-color: #f3f3f3;
   border-bottom: 5px solid black;
   margin-bottom: 20px;
@@ -350,12 +371,12 @@ header {
 /* testimonial 6 */
 
 .testimonial-6 {
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
   background-color: #f3f3f3;
   border-bottom: 5px solid black;
   margin-bottom: 20px;
@@ -400,11 +421,11 @@ header {
   margin-bottom: 150px;
 }
 
-/* .contact-image{
-    
-    
-    margin-right: -320px;
-} */
+.contact-image{
+
+  margin-right: -200px;
+      
+}
 
 .contact-form {
   /* border: 2px solid red; */
@@ -501,27 +522,61 @@ header {
 footer {
   width: 80vw;
   margin: 0 auto;
-  padding: 20px;
+  padding: 60px 20px 20px 20px;
   background-color: #191a23;
   color: white;
-  border-top-left-radius: 30px;
+  border-top-left-radius: 50px;
   border-top-right-radius: 30px;
+  
+}
+
+.footer-contain{
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  align-items: center;
+}
+
+.navbar-footer ul{
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.navbar-footer ul li a{
+  text-decoration: underline;
+}
+
+.social-links img{
+  margin-left: 10px;
+  
 }
 
 .footer-contact-info {
-  padding-top: 30px;
+  padding: 40px 0px;
   width: 66vw;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .footer-contact-info .contact-info-items {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 10px;
+  gap: 28px;
+}
+
+.contact-info-item-span{
+  background-color: #b9ff66;
+  width: fit-content;
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+
 }
 
 .contact-info-email-form {
@@ -552,6 +607,12 @@ footer {
   border: none;
 }
 
+.social-links img{
+  width: 35px;
+  
+  
+}
+
 .horizontal-line {
   width: 66vw;
   margin: 0 auto;
@@ -564,7 +625,7 @@ footer {
   margin: 0 auto;
   display: flex;
   gap: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .copyright a {
@@ -572,263 +633,3 @@ footer {
   color: white;
 }
 
-/* media quries for Responsive Design */
-@media screen and (max-width: 768px) {
-  
-  .hero-container,
-  .service-container,
-  .working-container,
-  .testimonials-container,
-  .contact-container {
-    width: 90vw;
-    margin: 0 auto;
-    padding: 30px 0;
-  }
-
-  /* --- 2. Header & Navigation --- */
-  header {
-    padding: 20px 5vw;
-    justify-content: space-between;
-  }
-
-  .navbar, 
-  .header-btn {
-    display: none; 
-  }
-
-  /* Hamburger Icon Styling */
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-  }
-
-  .hamburger .bar {
-    width: 24px;
-    height: 3px;
-    background-color: #191a23;
-    border-radius: 2px;
-  }
-
-  /* --- 3. Hero Section --- */
-  .hero-container {
-    height: auto;
-    flex-direction: column; 
-    text-align: left; 
-    gap: 25px;
-  }
-
-  .hero-description {
-    width: 100%;
-  }
-
-  .hero-description .hero-title {
-    font-size: 36px; /* Mobile par font size chota */
-    line-height: 1.3;
-    margin-bottom: 15px;
-  }
-
-  .hero-description .hero-para {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 25px;
-  }
-
-  .hero-description .hero-btn {
-    width: 100%; 
-    display: block;
-    text-align: center;
-    padding: 18px;
-  }
-
-  .hero-image {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .hero-image img {
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-  }
-
-  /* --- 4. Partner Logos --- */
-  .partner-images {
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px;
-    padding: 20px 5vw;
-    justify-items: center;
-    align-items: center;
-  }
-
-  .partner-images img {
-    width: 85px;
-    height: auto;
-    object-fit: contain;
-  }
-
-  /* --- 5. Sections Headings (Services, Working Process, Contact) --- */
-  .service-description,
-  .working-heading,
-  .contact-description {
-    height: auto;
-    flex-direction: column;
-    align-items: center; /* Heading aur paragraph center aligned hain */
-    text-align: center;
-    gap: 15px;
-    margin-bottom: 30px;
-  }
-
-  .service-description .service-title span,
-  .working-title span,
-  .contact-title .contact-span {
-    font-size: 26px;
-    display: inline-block;
-  }
-
-  /* --- 6. Service Cards --- */
-  .service-cards {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .service-card1, 
-  .service-card2 {
-    width: 100%;
-    padding: 30px;
-    flex-direction: row; /* Content aur icon barabar rhen gy */
-    justify-content: space-between;
-    align-items: flex-end; /* Icon niche corner mn set hoga */
-    border-radius: 30px;
-  }
-
-  .card-title-btn {
-    align-items: flex-start;
-  }
-
-  /* --- 7. Working Process (Accordion Style List) --- */
-  /* Screenshot k mutabiq ye items full width aur list form mn aik k niche aik hain */
-  .testimonial-1,
-  .testimonial-2,
-  .testimonial-3,
-  .testimonial-4,
-  .testimonial-5,
-  .testimonial-6 {
-    width: 100%;
-    padding: 20px 25px;
-    margin-bottom: 15px;
-    border-radius: 25px;
-  }
-
-  .testimonial-1-sub-container,
-  .testimonial-2 .testimonial-para2,
-  .testimonial-3 .testimonial-para3,
-  .testimonial-4 .testimonial-para4,
-  .testimonial-5 .testimonial-para5,
-  .testimonial-6 .testimonial-para6 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    font-size: 18px; 
-  }
-
-  /* Agar andar paragraph text show ho rha ho */
-  .testimonial-para {
-    font-size: 14px;
-    line-height: 1.4;
-    margin-top: 15px;
-  }
-
-  /* --- 8. Contact Form Section --- */
-  .contact-form-container {
-    padding: 25px;
-    border-radius: 30px;
-    margin-bottom: 40px;
-    background-color: #f3f3f3;
-  }
-
-  .contact-form {
-    width: 100%;
-    padding: 0;
-  }
-
-  .radio-group {
-    justify-content: flex-start;
-    gap: 25px;
-    margin-bottom: 20px;
-  }
-
-  .contact-image {
-    display: none; 
-  }
-
-  .input-group input[type="text"],
-  .input-group input[type="email"],
-  .input-group textarea {
-    padding: 14px; 
-  }
-
-  .submit-btn {
-    padding: 16px;
-    font-size: 16px;
-  }
-
-  /* --- 9. Footer Section --- */
-  footer {
-    width: 100vw;
-    border-radius: 0; 
-    padding: 40px 5vw;
-    text-align: center;
-  }
-
-  /* Footer logo aur link structure block kr dya */
-  .footer-contact-info {
-    width: 100%;
-    flex-direction: column;
-    gap: 25px;
-  }
-
-  .footer-contact-info .contact-info-items {
-    align-items: center;
-    gap: 12px;
-  }
-
-  /* Email Box and Button Wrapper */
-  .contact-info-email-form {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    padding: 20px;
-    gap: 15px;
-  }
-
-  .contact-info-email-form #myemail {
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-  }
-
-  .subscribe-btn {
-    width: 100%;
-    padding: 15px;
-  }
-
-  .horizontal-line {
-    width: 100%;
-    margin: 25px 0;
-  }
-
-  .copyright {
-    width: 100%;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-  }
-}
