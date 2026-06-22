@@ -11,7 +11,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 .margin{
-  margin-bottom: 40px;
+  margin-bottom:40px;
 }
 
 header {
@@ -22,6 +22,8 @@ header {
   
   
 }
+
+
 
 .logo {
   height: 2.25rem;  
@@ -175,6 +177,12 @@ header {
   font-weight: bold;
 }
 
+.card-anchor-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .service-card1 .card-title-btn .card-anchor {
   text-decoration: none;
   color: black;
@@ -208,6 +216,12 @@ header {
   background-color: white;
   font-size: 20px;
   font-weight: bold;
+}
+
+.card-anchor-container-1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .service-card2 .card-title-btn .card-anchor1 {
@@ -259,13 +273,20 @@ header {
   padding: 10px;
 }
 
+.testimonial-heading{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .testimonial-title {
   font-size: 25px;
   font-weight: 700;
 }
 
-.testimonial-title .myspan {
+.testimonial-heading .myspan{
   font-size: 50px;
+  font-weight: bold;
 }
 
 .testimonial-para {
@@ -291,7 +312,13 @@ header {
   font-weight: 600;
 }
 
-.testimonial-2 .testimonial-para2 .myspan2 {
+.testimonial-heading-2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-heading-2 .myspan2 {
   font-size: 50px;
   font-weight: bold;
 }
@@ -315,7 +342,13 @@ header {
   font-weight: 600;
 }
 
-.testimonial-3 .testimonial-para3 .myspan3 {
+.testimonial-heading-3{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-heading-3 .myspan3 {
   font-size: 50px;
   font-weight: bold;
 }
@@ -334,12 +367,18 @@ header {
   margin-bottom: 20px;
 }
 
+.testimonial-heading-4{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .testimonial-4 .testimonial-para4 {
   font-size: 20px;
   font-weight: 600;
 }
 
-.testimonial-4 .testimonial-para4 .myspan4 {
+.testimonial-heading-4 .myspan4 {
   font-size: 50px;
   font-weight: bold;
 }
@@ -358,12 +397,18 @@ header {
   margin-bottom: 20px;
 }
 
+.testimonial-heading-5{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .testimonial-5 .testimonial-para5 {
   font-size: 20px;
   font-weight: 600;
 }
 
-.testimonial-5 .testimonial-para5 .myspan5 {
+.testimonial-heading-5 .myspan5 {
   font-size: 50px;
   font-weight: bold;
 }
@@ -382,12 +427,18 @@ header {
   margin-bottom: 20px;
 }
 
+.testimonial-heading-6{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .testimonial-6 .testimonial-para6 {
   font-size: 20px;
   font-weight: 600;
 }
 
-.testimonial-6 .testimonial-para6 .myspan6 {
+.testimonial-heading-6 .myspan6 {
   font-size: 50px;
   font-weight: bold;
 }
